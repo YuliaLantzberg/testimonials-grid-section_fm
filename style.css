@@ -23,10 +23,8 @@ body {
 	font-family: "Barlow Semi Condensed", sans-serif;
 	font-weight: 500;
 	color: var(--light-gray);
-	background-color: var(--light-grayish-blue);
 	display: grid;
 	place-items: center;
-	padding: 20rem;
 }
 
 main {
@@ -34,6 +32,8 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: var(--light-grayish-blue);
+	padding: 20rem;
 }
 
 .cards {
